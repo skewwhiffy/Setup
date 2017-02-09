@@ -17,6 +17,7 @@ return
 
 
 ; Numbers to punctuation
+/*
 1::!
 2::" ;"
 3::£
@@ -27,6 +28,7 @@ return
 8::*
 9::(
 0::)
+*/
 
 
 ; Tarmak. See here (https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/) for definition.
