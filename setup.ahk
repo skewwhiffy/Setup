@@ -3,16 +3,16 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-^!NumpadSub::
-    MsgBox,4096,Reload,AutoHotkey script reloaded,1
+^!F9::
+    MsgBox,4096,Reload,AutoHotkey script reloaded,0.5
     Reload
 return
-^!NumpadAdd::
+^!F10::
     Suspend,Toggle
     if (A_IsSuspended)
-        MsgBox,4096,Toggle,AutoHotkey suspended,1
+        MsgBox,4112,AutoHotkey,SUSPENDED,0.25
     else  
-        MsgBox,4096,Toggle,AutoHotkey active,1
+        MsgBox,4160,AutoHotkey,ACTIVE,0.25
 return
 
 
