@@ -28,8 +28,6 @@ $7::Send {&}
 $8::Send {*}
 $9::Send {(}
 $0::Send {)}
-$[::Send {{}
-$]::Send {}}
 $!::Send 1
 $"::Send 2
 $£::Send 3
@@ -40,12 +38,20 @@ $&::Send 7
 $*::Send 8
 $(::Send 9
 $)::Send 0
-${::Send [
-$}::Send ]
 
 ; Tarmak. See here (https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/) for definition.
 ; Tarmak 1
+/*
 e::j
+j::n
+n::k
+k::e
+*/
+; Tarmak 2
+e::f
+f::t
+t::g
+g::j
 j::n
 n::k
 k::e
