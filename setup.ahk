@@ -57,6 +57,7 @@ n::k
 k::e
 */
 ; Tarmak 3
+/*
 e::f
 f::t
 t::g
@@ -67,4 +68,19 @@ r::j
 j::n
 n::k
 k::e
-
+*/
+;Tarmak 4
+e::f
+f::t
+t::g
+g::d
+d::s
+s::r
+r::p
+p::;
+`;::o
+o::y
+y::j
+j::n
+n::k
+k::e
