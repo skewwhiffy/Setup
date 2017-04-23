@@ -17,26 +17,6 @@ CapsLock::
 return
 
 ; Numbers to punctuation
-$1::Send {!}
-$2::Send {"}
-$3::Send {£}
-$4::Send {$}
-$5::Send {`%}
-$6::Send {^}
-$7::Send {&}
-$8::Send {*}
-$9::Send {(}
-$0::Send {)}
-$!::Send 1
-$"::Send 2
-$£::Send 3
-$$::Send 4
-$%::Send 5
-$^::Send 6
-$&::Send 7
-$*::Send 8
-$(::Send 9
-$)::Send 0
 
 ; Tarmak. See here (https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/) for definition.
 ; Tarmak 1
