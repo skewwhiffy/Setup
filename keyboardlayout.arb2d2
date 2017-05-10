@@ -2751,9 +2751,9 @@
       <Z>2</Z>
       <Command>0</Command>
       <Key>
-        <DisplayID>10</DisplayID>
-        <ValASCII>103</ValASCII>
-        <ValScan>10</ValScan>
+        <DisplayID>62</DisplayID>
+        <ValASCII>198</ValASCII>
+        <ValScan>62</ValScan>
         <KeyType>0</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
@@ -2779,9 +2779,9 @@
       <Z>2</Z>
       <Command>0</Command>
       <Key>
-        <DisplayID>7</DisplayID>
-        <ValASCII>100</ValASCII>
-        <ValScan>7</ValScan>
+        <DisplayID>68</DisplayID>
+        <ValASCII>204</ValASCII>
+        <ValScan>68</ValScan>
         <KeyType>0</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
@@ -2807,9 +2807,9 @@
       <Z>2</Z>
       <Command>0</Command>
       <Key>
-        <DisplayID>5</DisplayID>
-        <ValASCII>98</ValASCII>
-        <ValScan>5</ValScan>
+        <DisplayID>67</DisplayID>
+        <ValASCII>203</ValASCII>
+        <ValScan>67</ValScan>
         <KeyType>0</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
