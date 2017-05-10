@@ -2247,9 +2247,9 @@
       <Z>2</Z>
       <Command>0</Command>
       <Key>
-        <DisplayID>29</DisplayID>
-        <ValASCII>122</ValASCII>
-        <ValScan>29</ValScan>
+        <DisplayID>52</DisplayID>
+        <ValASCII>39</ValASCII>
+        <ValScan>52</ValScan>
         <KeyType>0</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
@@ -2387,10 +2387,10 @@
       <Z>2</Z>
       <Command>0</Command>
       <Key>
-        <DisplayID>27</DisplayID>
-        <ValASCII>120</ValASCII>
-        <ValScan>27</ValScan>
-        <KeyType>0</KeyType>
+        <DisplayID>531</DisplayID>
+        <ValASCII>50</ValASCII>
+        <ValScan>31</ValScan>
+        <KeyType>11</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
       </Key>
