@@ -2821,10 +2821,10 @@
       <Z>2</Z>
       <Command>1</Command>
       <Key>
-        <DisplayID>100</DisplayID>
+        <DisplayID>600</DisplayID>
         <ValASCII>0</ValASCII>
         <ValScan>100</ValScan>
-        <KeyType>0</KeyType>
+        <KeyType>11</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>false</HasASCII>
       </Key>
