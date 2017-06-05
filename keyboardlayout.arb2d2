@@ -2233,10 +2233,10 @@
       <Z>2</Z>
       <Command>1</Command>
       <Key>
-        <DisplayID>552</DisplayID>
+        <DisplayID>852</DisplayID>
         <ValASCII>39</ValASCII>
         <ValScan>52</ValScan>
-        <KeyType>11</KeyType>
+        <KeyType>12</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
       </Key>
