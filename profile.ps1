@@ -1,5 +1,9 @@
 $codeFolder = "c:\code";
 
+# This file should be at c:\users\<your_user_name>\profile.ps1
+# Under cmder, add the following line to \config\user-profile.ps1
+# . c:\users\<your_user_name>\profile.ps1
+
 function code() {
   cd $codeFolder;
 }

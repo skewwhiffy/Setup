@@ -2751,10 +2751,10 @@
       <Z>2</Z>
       <Command>0</Command>
       <Key>
-        <DisplayID>45</DisplayID>
-        <ValASCII>45</ValASCII>
-        <ValScan>45</ValScan>
-        <KeyType>0</KeyType>
+        <DisplayID>549</DisplayID>
+        <ValASCII>92</ValASCII>
+        <ValScan>49</ValScan>
+        <KeyType>11</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
       </Key>
