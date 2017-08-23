@@ -4,8 +4,16 @@ $codeFolder = "c:\code";
 # Under cmder, add the following line to \config\user-profile.ps1
 # . c:\users\<your_user_name>\profile.ps1
 
-function code() {
+function repos() {
   cd $codeFolder;
+}
+
+function headset() {
+  & "c:\dev\nircmd\nircmd.exe" setdefaultsounddevice "Headset Earphone"
+}
+
+function headphones() {
+  & "c:\dev\nircmd\nircmd.exe" setdefaultsounddevice "Speakers"
 }
 
 function gclone($url) {
@@ -55,13 +63,13 @@ function repo($selected) {
 }
 
 function sln($version, $selected) {
-  if ($version -ne 2015 -and -not $selected) {
+  if ($version -ne 2015 -and $version -ne 'rider' -and -not $selected) {
     $selected = $version
-    $version = 2017
+    $version = 'rider'
   }
 
   if (-not $version) {
-    $version = 2017
+    $version = 'rider'
   }
   $solutionFiles = Get-ChildItem -recurse -name | select-string -pattern ".sln$" | Sort-Object
 
@@ -72,7 +80,9 @@ function sln($version, $selected) {
   foreach ($solutionFile in $solutionFiles | Sort-Object) {
     if ($selected) {
       if ($selected -eq $count) {
-      if ($version -eq 2015) {
+      if ($version -eq 'rider') {
+	    $exe = 'C:\Program Files\JetBrains\Rider 2017.1\bin\rider64.exe'
+	  } elseif ($version -eq 2015) {
         $exe = 'C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe'
       } else {
         $exe = 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\devenv.exe'
@@ -137,7 +147,7 @@ function gitka() {
 }
 
 function colemak() {
-  & 'C:\dev\autohotkey\AutoHotkeyU64.exe' 'C:\code\github.com\skewwhiffy\Setup\setup.ahk'
+  & 'C:\Program Files\AutoHotkey\AutoHotkeyU64.exe' 'C:\code\github.com\skewwhiffy\Setup\setup.ahk'
 }
 
 function profile() {
