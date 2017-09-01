@@ -4725,9 +4725,9 @@
       <Z>4</Z>
       <Command>1</Command>
       <Key>
-        <DisplayID>226</DisplayID>
-        <ValASCII>130</ValASCII>
-        <ValScan>226</ValScan>
+        <DisplayID>39</DisplayID>
+        <ValASCII>48</ValASCII>
+        <ValScan>39</ValScan>
         <KeyType>0</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
