@@ -819,10 +819,10 @@
       <Z>0</Z>
       <Command>0</Command>
       <Key>
-        <DisplayID>852</DisplayID>
-        <ValASCII>39</ValASCII>
-        <ValScan>52</ValScan>
-        <KeyType>12</KeyType>
+        <DisplayID>227</DisplayID>
+        <ValASCII>131</ValASCII>
+        <ValScan>227</ValScan>
+        <KeyType>0</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
       </Key>
@@ -1827,10 +1827,10 @@
       <Z>1</Z>
       <Command>0</Command>
       <Key>
-        <DisplayID>852</DisplayID>
-        <ValASCII>39</ValASCII>
-        <ValScan>52</ValScan>
-        <KeyType>12</KeyType>
+        <DisplayID>227</DisplayID>
+        <ValASCII>131</ValASCII>
+        <ValScan>227</ValScan>
+        <KeyType>0</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
       </Key>
@@ -2835,10 +2835,10 @@
       <Z>2</Z>
       <Command>0</Command>
       <Key>
-        <DisplayID>852</DisplayID>
-        <ValASCII>39</ValASCII>
-        <ValScan>52</ValScan>
-        <KeyType>12</KeyType>
+        <DisplayID>227</DisplayID>
+        <ValASCII>131</ValASCII>
+        <ValScan>227</ValScan>
+        <KeyType>0</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
       </Key>
@@ -3843,10 +3843,10 @@
       <Z>3</Z>
       <Command>0</Command>
       <Key>
-        <DisplayID>852</DisplayID>
-        <ValASCII>39</ValASCII>
-        <ValScan>52</ValScan>
-        <KeyType>12</KeyType>
+        <DisplayID>227</DisplayID>
+        <ValASCII>131</ValASCII>
+        <ValScan>227</ValScan>
+        <KeyType>0</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
       </Key>
@@ -4851,10 +4851,10 @@
       <Z>4</Z>
       <Command>0</Command>
       <Key>
-        <DisplayID>852</DisplayID>
-        <ValASCII>39</ValASCII>
-        <ValScan>52</ValScan>
-        <KeyType>12</KeyType>
+        <DisplayID>227</DisplayID>
+        <ValASCII>131</ValASCII>
+        <ValScan>227</ValScan>
+        <KeyType>0</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
       </Key>
