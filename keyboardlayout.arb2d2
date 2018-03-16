@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ClLayoutContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ClLayoutContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <KeyDatas>
     <ClKeyData>
       <X>0</X>
@@ -3395,10 +3395,10 @@
       <Z>3</Z>
       <Command>0</Command>
       <Key>
-        <DisplayID>27</DisplayID>
-        <ValASCII>120</ValASCII>
-        <ValScan>27</ValScan>
-        <KeyType>0</KeyType>
+        <DisplayID>1180</DisplayID>
+        <ValASCII>216</ValASCII>
+        <ValScan>80</ValScan>
+        <KeyType>13</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
       </Key>
@@ -3675,10 +3675,10 @@
       <Z>3</Z>
       <Command>0</Command>
       <Key>
-        <DisplayID>25</DisplayID>
-        <ValASCII>118</ValASCII>
-        <ValScan>25</ValScan>
-        <KeyType>0</KeyType>
+        <DisplayID>1179</DisplayID>
+        <ValASCII>215</ValASCII>
+        <ValScan>79</ValScan>
+        <KeyType>13</KeyType>
         <AllLayers>false</AllLayers>
         <HasASCII>true</HasASCII>
       </Key>
