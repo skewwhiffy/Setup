@@ -11,13 +11,15 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'udalov/kotlin-vim'
 Plugin 'vim-scripts/vim-auto-save'
+Plugin 'udalov/kotlin-vim'
+Plugin 'sheerun/vim-polyglot'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+set nowrap
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -27,4 +29,12 @@ let NERDTreeIgnore = ['\.jar$']
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 filetype plugin indent on
+
+let g:ctrlp_custom_ignore = {
+    \ 'dir': '\.git$\|\.idea$\|\.dockerignore$\|\.gradle$\',
+    \ 'file': '\.exe$\|\.jar$\|\.class$\|\.kt.html$\'
+    \ }
+let g:ctrlp_working_path_mode = 'r'
+let g:ctrlp_max_files = 100000
+let g:ctrlp_clear_cache_on_exit = 0
 let g:auto_save=1
