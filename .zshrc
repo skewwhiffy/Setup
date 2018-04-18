@@ -98,6 +98,10 @@ repos() {
     cd ~/code
 }
 
+gitka() {
+    gitk -a &
+}
+
 eval $(thefuck --alias)
 
 source ~/code/github.com/olivierverdier/zsh-git-prompt/zshrc.sh
