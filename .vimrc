@@ -35,7 +35,7 @@ let g:ctrlp_custom_ignore = {
     \ 'dir': '\.git$\|\.idea$\|\.dockerignore$\|\.gradle$\',
     \ 'file': '\.exe$\|\.jar$\|\.class$\|\.kt.html$\'
     \ }
-let g:ctrlp_working_path_mode = 'r'
+let g:ctrlp_working_path_mode = 0
 let g:ctrlp_max_files = 100000
 let g:ctrlp_clear_cache_on_exit = 0
 let g:auto_save=1
