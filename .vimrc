@@ -14,6 +14,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'vim-scripts/vim-auto-save'
 Plugin 'udalov/kotlin-vim'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'rafi/awesome-vim-colorschemes'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -38,3 +39,6 @@ let g:ctrlp_working_path_mode = 'r'
 let g:ctrlp_max_files = 100000
 let g:ctrlp_clear_cache_on_exit = 0
 let g:auto_save=1
+
+syntax on
+colorscheme lightning
