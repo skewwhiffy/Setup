@@ -41,4 +41,4 @@ let g:ctrlp_clear_cache_on_exit = 0
 let g:auto_save=1
 
 syntax on
-colorscheme lightning
+colorscheme seoul256-light
