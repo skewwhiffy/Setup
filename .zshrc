@@ -102,8 +102,18 @@ gitka() {
     gitk -a &
 }
 
+java8() {
+    export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+}
+
+java10() {
+    export JAVA_HOME="$(/usr/libexec/java_home -v 10)"
+}
+
 eval $(thefuck --alias)
 
 source ~/code/github.com/olivierverdier/zsh-git-prompt/zshrc.sh
-PROMPT='%B%~%b$(git_super_status)
+PROMPT=$'\e[0;95m(%*)\e[0m %B%~%b$(git_super_status)
 %# '
+
+java8
