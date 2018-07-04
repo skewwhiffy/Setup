@@ -116,4 +116,15 @@ source ~/code/github.com/olivierverdier/zsh-git-prompt/zshrc.sh
 PROMPT=$'\e[0;95m(%*)\e[0m %B%~%b$(git_super_status)
 %# '
 
-java8
+case "$(uname -s)" in
+    Darwin)
+        echo "I'm a MAC"
+        java8
+        ;;
+    Linux)
+        echo "I'm a Linux box"
+        ;;
+    *)
+        echo "I've no idea what I am"
+        ;;
+esac
