@@ -123,7 +123,7 @@ case "$(uname -s)" in
         ;;
     Linux)
         echo "I'm a Linux box"
-        PATH="$PATH:/opt/node-v8.11.1-linux-x64/bin"
+        PATH="$PATH:/opt/node-v8.11.1-linux-x64/bin:$HOME/.local/bin"
         ;;
     *)
         echo "I've no idea what I am"
