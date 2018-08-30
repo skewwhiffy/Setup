@@ -99,7 +99,7 @@ repos() {
 }
 
 gitka() {
-    gitk -a &
+    gitk --all &
 }
 
 java8() {
