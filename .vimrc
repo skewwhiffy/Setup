@@ -1,4 +1,5 @@
 set nocompatible              " be iMproved, required
+set directory=$HOME/.vim/swapfiles//
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
